@@ -10,7 +10,7 @@ init_sidebar()
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('./datasets/your_filename_here.csv')
+    return pd.read_csv('./datasets/fake_data.csv')
 
 def some_plot_function(data):
     fig, ax = plt.subplots(figsize=(5, 6))
